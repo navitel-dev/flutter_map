@@ -16,7 +16,7 @@ import 'package:tuple/tuple.dart';
 import 'layer.dart';
 
 typedef TemplateFunction = String Function(
-    String str, Map<String, String> data);
+    String str, Map<String, dynamic> data);
 typedef ErrorTileCallBack = void Function(Tile tile, dynamic error);
 
 /// Describes the needed properties to create a tile-based layer. A tile is an
